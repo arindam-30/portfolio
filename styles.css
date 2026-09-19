@@ -555,6 +555,28 @@ section h2 {
   background: var(--frame-bg);
 }
 
+/* ========== Formula Student ========== */
+/* A permanent, single-slide experience using the same gallery and detail
+   language as the expanded project views. */
+.formula-student {
+  padding: 0;
+  justify-content: stretch;
+}
+.formula-student-inner {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  width: 100%;
+  min-height: 100vh;
+}
+.formula-student-media {
+  position: relative;
+  min-width: 0;
+}
+.formula-student-panel h2 {
+  margin-bottom: 0;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
 /* ========== Photo gallery (multiple photos per project, inside the
    overlay's media panel): prev/next arrows plus a 3s auto-advancing
    slideshow by default. ========== */

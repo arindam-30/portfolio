@@ -28,18 +28,21 @@
   .about-lead .img-placeholder.portrait,
   .about-lead .img-portrait { max-width: 96px; flex-shrink: 0; }
   .project-slide-inner,
-  .project-slide-inner.reverse {
+  .project-slide-inner.reverse,
+  .formula-student-inner {
     grid-template-columns: 1fr;
     min-height: auto;
   }
   .project-slide-inner .project-media,
-  .project-slide-inner.reverse .project-media {
+  .project-slide-inner.reverse .project-media,
+  .formula-student-media {
     order: 1;
     aspect-ratio: 4 / 3;
     min-height: 260px;
   }
   .project-slide-inner .project-panel,
-  .project-slide-inner.reverse .project-panel {
+  .project-slide-inner.reverse .project-panel,
+  .formula-student-panel {
     order: 2;
     padding: 48px var(--gutter);
   }
